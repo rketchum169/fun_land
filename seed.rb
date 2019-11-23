@@ -2,9 +2,7 @@ require 'faker'
 include Faker
 
 75.times do
-	item_name = Faker::Pokemon.name
+	puts "INSERT INTO rewards (item_name, tokens, available) VALUE (#{Faker::Creature::Animal}, #{[5..5000].sample}, #{[1,0,1,1].sample};" 
 
 end
 
-250.times do
-	name
